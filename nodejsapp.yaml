@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: "abhijay123/mynodejsapp-1.0:latest"
+        image: "public.ecr.aws/n0g2k3y3/myapp:latest"
         imagePullPolicy: Always
         ports:
           - containerPort: 3000
